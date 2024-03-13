@@ -3,5 +3,6 @@
   "trailingComma": "none",
   "semi": true,
   "printWidth": 80,
-  "singleAttributePerLine": true
+  "singleAttributePerLine": true,
+  "plugins": ["prettier-plugin-tailwindcss"]
 }
