@@ -9,4 +9,4 @@
 
 ### Additional Features
 
-- **Virtual Studio Code recommended extensions**
+- **Visual Studio Code recommended extensions**
