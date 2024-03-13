@@ -10,3 +10,19 @@
 ### Additional Features
 
 - **Visual Studio Code recommended extensions**
+
+## Getting started
+
+You can use this template running the following `create-next-app` command.
+
+```
+npx create-next-app *project-name or .* -e https://github.com/Gustavo-Brun/Next_Template
+```
+
+If you prefer you can clone this repository and run the following command inside the project folder:
+
+`npm install`
+
+To view the project open `http://localhost:3000`.
+
+Made with 💙 by Gustavo Brun
