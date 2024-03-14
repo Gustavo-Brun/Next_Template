@@ -7,9 +7,9 @@
 - **Tailwind CSS** — Utility-first CSS framework packed with classes > Integrated with Prettier for classes sorting.
 - **Husky** — Scripts for pre-commmits > Running ESLint + Prettier - /src
 
-### Additional Features
+### Settings Customization
 
-- **Visual Studio Code recommended extensions**
+- **Visual Studio Code recommended extensions** - You can see the recommended extensions by going to .vscode/extensions.json.
 
 ## Getting started
 
