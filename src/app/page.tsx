@@ -1,3 +1,9 @@
+import { Example } from "@/components/Example";
+
 export default function Home(): JSX.Element {
-  return <main></main>;
+  return (
+    <main>
+      <Example />
+    </main>
+  );
 }
