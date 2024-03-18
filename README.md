@@ -7,6 +7,8 @@
 - **Tailwind CSS** — Utility-first CSS framework packed with classes > Integrated with Prettier for classes sorting.
 - **Tailwind Styled Components** — Tailwind like styled components with classes name on multiple lines > Integrated with Prettier for classes sorting.
 - **Husky** — Scripts for pre-commmits > Running ESLint + Prettier - /src
+- **Jest** — JavaScript Testing Framework, focusing mainly on unit testing.
+- **React Testing Library** — React DOM testing utilities that helps writing tests.
 
 ### Settings Customization
 
