@@ -1,2 +1,9 @@
-npm run fix
-npm run test
+#!/bin/sh
+
+if command -v pnpm >/dev/null 2>&1; then
+  pnpm run fix
+  pnpm run test
+else
+  npm run fix
+  npm run test
+fi
