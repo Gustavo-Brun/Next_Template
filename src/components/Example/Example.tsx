@@ -1,6 +1,8 @@
+import React from "react";
+
 import * as S from "./styles";
 
-const Example = (): JSX.Element => {
+const Example = (): React.JSX.Element => {
   return (
     <S.Container>
       <S.Title>&#10052; Next.js & TypeScript starter template &#10052;</S.Title>
