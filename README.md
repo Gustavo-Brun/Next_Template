@@ -14,7 +14,35 @@
 
 - **Shadcn/UI** — Accessible and customizable components that you can copy and paste into your apps.  
   You can start adding components to your project by running `npx shadcn-ui@latest add (component)` or `pnpm dlx shadcn-ui@latest add (component)`  
-  Visit http://ui.shadcn.com/docs to view the documentation and get access to the available components.
+  Visit https://ui.shadcn.com/docs to view the documentation and get access to the available components.
+- **Light/Dark Mode** — Switch between light and dark mode in your next application.  
+   To use this feature you need to import the `useTheme` from `"next-themes"` and define it as a constant in your component.  
+   Then, place a mode toggle on your site to toggle between light and dark mode.  
+   It must countain the property `onClick={() => setTheme("light")}` or `onClick={() => setTheme("dark")}`.  
+  Here is an example:
+
+  ```
+  import { useTheme } from "next-themes"
+
+  export function ModeToggle() {
+
+    const { setTheme } = useTheme()
+
+    return (
+      <>
+        <button
+          onClick={() => {
+            setTheme("light");
+          }}
+        >
+          light mode
+        </button>
+      </>
+    )
+  }
+  ```
+
+  Visit https://ui.shadcn.com/docs/dark-mode/next for more information.
 
 ### Settings Customization
 

@@ -1,6 +1,7 @@
 import React from "react";
 import type { Metadata } from "next";
 import "./globals.css";
+import { ThemeProvider } from "@/providers/theme-provider";
 
 export const metadata: Metadata = {
   title: "Next.js Template",
@@ -14,7 +15,16 @@ export default function RootLayout({
 }>): React.JSX.Element {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
