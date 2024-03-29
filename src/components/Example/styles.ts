@@ -29,3 +29,9 @@ export const TextSpan = tw.span`
   italic
   underline
 `;
+
+export const ThemeContainer = tw.div`
+  absolute
+  right-10
+  top-16
+`;

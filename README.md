@@ -44,6 +44,13 @@
 
   Visit https://ui.shadcn.com/docs/dark-mode/next for more information.
 
+- **React Icons** — Include popular icons in your React projects easily using ES6 imports that allows you to include only the icons that your project is using.  
+  For example, to use an icon from Material Design, your import would be:  
+  `import { ICON_NAME } from 'react-icons/md'`.  
+  After importing the icon, you can use it as a simple react component:  
+  `<Icon_NAME />`.  
+  Visit https://react-icons.github.io/react-icons/ to get access to the available icons.
+
 ### Settings Customization
 
 - **Visual Studio Code recommended extensions** — You can see the recommended extensions by going to .vscode/extensions.json.
