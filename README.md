@@ -10,6 +10,12 @@
 - **Jest** — JavaScript Testing Framework, focusing mainly on unit testing.
 - **React Testing Library** — React DOM testing utilities that helps writing tests.
 
+### Additional Features
+
+- **Shadcn/UI** — Accessible and customizable components that you can copy and paste into your apps.  
+  You can start adding components to your project by running `npx shadcn-ui@latest add (component)` or `pnpm dlx shadcn-ui@latest add (component)`  
+  Visit http://ui.shadcn.com/docs to view the documentation and get access to the available components.
+
 ### Settings Customization
 
 - **Visual Studio Code recommended extensions** — You can see the recommended extensions by going to .vscode/extensions.json.
