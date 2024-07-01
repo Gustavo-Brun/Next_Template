@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@radix-ui/react-slot':
         specifier: ^1.0.2
-        version: 1.0.2(@types/react@18.2.67)(react@18.2.0)
+        version: 1.0.2(@types/react@18.3.3)(react@18.3.1)
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.0
@@ -19,22 +19,22 @@ importers:
         version: 2.1.0
       lucide-react:
         specifier: ^0.396.0
-        version: 0.396.0(react@18.2.0)
+        version: 0.396.0(react@18.3.1)
       next:
         specifier: 14.1.3
-        version: 14.1.3(@babel/core@7.24.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 14.1.3(@babel/core@7.24.1)(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
       next-themes:
         specifier: ^0.3.0
-        version: 0.3.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 0.3.0(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
       react:
         specifier: ^18
-        version: 18.2.0
+        version: 18.3.1
       react-dom:
         specifier: ^18
-        version: 18.2.0(react@18.2.0)
+        version: 18.2.0(react@18.3.1)
       react-icons:
         specifier: ^5.0.1
-        version: 5.0.1(react@18.2.0)
+        version: 5.0.1(react@18.3.1)
       tailwind-merge:
         specifier: ^2.2.2
         version: 2.2.2
@@ -47,7 +47,7 @@ importers:
         version: 6.4.2(@jest/globals@29.7.0)(@types/jest@29.5.12)(jest@29.7.0(@types/node@20.11.30)(ts-node@10.9.2(@types/node@20.11.30)(typescript@5.5.2)))
       '@testing-library/react':
         specifier: ^14.2.1
-        version: 14.2.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 14.2.1(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
       '@types/jest':
         specifier: ^29.5.12
         version: 29.5.12
@@ -56,7 +56,7 @@ importers:
         version: 20.11.30
       '@types/react':
         specifier: ^18
-        version: 18.2.67
+        version: 18.3.3
       '@types/react-dom':
         specifier: ^18
         version: 18.2.22
@@ -92,13 +92,13 @@ importers:
         version: 3.3.2
       prettier-plugin-tailwind-styled-components:
         specifier: ^0.0.4
-        version: 0.0.4(prettier@3.3.2)(tailwind-styled-components@2.2.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
+        version: 0.0.4(prettier@3.3.2)(tailwind-styled-components@2.2.0(react-dom@18.2.0(react@18.3.1))(react@18.3.1))
       prettier-plugin-tailwindcss:
         specifier: ^0.6.5
         version: 0.6.5(prettier@3.3.2)
       tailwind-styled-components:
         specifier: ^2.2.0
-        version: 2.2.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 2.2.0(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
       tailwindcss:
         specifier: ^3.4.4
         version: 3.4.4(ts-node@10.9.2(@types/node@20.11.30)(typescript@5.5.2))
@@ -636,11 +636,8 @@ packages:
   '@types/react-dom@18.2.22':
     resolution: {integrity: sha512-fHkBXPeNtfvri6gdsMYyW+dW7RXFo6Ad09nLFK0VQWR7yGLai/Cyvyj696gbwYvBnhGtevUG9cET0pmUbMtoPQ==}
 
-  '@types/react@18.2.67':
-    resolution: {integrity: sha512-vkIE2vTIMHQ/xL0rgmuoECBCkZFZeHr49HeWSc24AptMbNRo7pwSBvj73rlJJs9fGKj0koS+V7kQB1jHS0uCgw==}
-
-  '@types/scheduler@0.16.8':
-    resolution: {integrity: sha512-WZLiwShhwLRmeV6zH+GkbOFT6Z6VklCItrDioxUnv+u4Ll+8vKeFySoFyK/0ctcRpOmwAicELfmys1sDc/Rw+A==}
+  '@types/react@18.3.3':
+    resolution: {integrity: sha512-hti/R0pS0q1/xx+TsI73XIqk26eBsISZ2R0wUijXIngRK9R/e7Xw/cXVxQK7R5JjW+SV4zGcn5hXjudkN/pLIw==}
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
@@ -2517,8 +2514,8 @@ packages:
   react-is@18.2.0:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
 
-  react@18.2.0:
-    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+  react@18.3.1:
+    resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
     engines: {node: '>=0.10.0'}
 
   read-cache@1.0.0:
@@ -3538,20 +3535,20 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@radix-ui/react-compose-refs@1.0.1(@types/react@18.2.67)(react@18.2.0)':
+  '@radix-ui/react-compose-refs@1.0.1(@types/react@18.3.3)(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.1
-      react: 18.2.0
+      react: 18.3.1
     optionalDependencies:
-      '@types/react': 18.2.67
+      '@types/react': 18.3.3
 
-  '@radix-ui/react-slot@1.0.2(@types/react@18.2.67)(react@18.2.0)':
+  '@radix-ui/react-slot@1.0.2(@types/react@18.3.3)(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.1
-      '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.67)(react@18.2.0)
-      react: 18.2.0
+      '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.3.3)(react@18.3.1)
+      react: 18.3.1
     optionalDependencies:
-      '@types/react': 18.2.67
+      '@types/react': 18.3.3
 
   '@rushstack/eslint-patch@1.7.2': {}
 
@@ -3595,13 +3592,13 @@ snapshots:
       '@types/jest': 29.5.12
       jest: 29.7.0(@types/node@20.11.30)(ts-node@10.9.2(@types/node@20.11.30)(typescript@5.5.2))
 
-  '@testing-library/react@14.2.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@testing-library/react@14.2.1(react-dom@18.2.0(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.24.1
       '@testing-library/dom': 9.3.4
       '@types/react-dom': 18.2.22
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.1
+      react-dom: 18.2.0(react@18.3.1)
 
   '@tootallnate/once@2.0.0': {}
 
@@ -3673,15 +3670,12 @@ snapshots:
 
   '@types/react-dom@18.2.22':
     dependencies:
-      '@types/react': 18.2.67
+      '@types/react': 18.3.3
 
-  '@types/react@18.2.67':
+  '@types/react@18.3.3':
     dependencies:
       '@types/prop-types': 15.7.11
-      '@types/scheduler': 0.16.8
       csstype: 3.1.3
-
-  '@types/scheduler@0.16.8': {}
 
   '@types/semver@7.5.8': {}
 
@@ -5600,9 +5594,9 @@ snapshots:
     dependencies:
       yallist: 4.0.0
 
-  lucide-react@0.396.0(react@18.2.0):
+  lucide-react@0.396.0(react@18.3.1):
     dependencies:
-      react: 18.2.0
+      react: 18.3.1
 
   lz-string@1.5.0: {}
 
@@ -5661,12 +5655,12 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next-themes@0.3.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  next-themes@0.3.0(react-dom@18.2.0(react@18.3.1))(react@18.3.1):
     dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.1
+      react-dom: 18.2.0(react@18.3.1)
 
-  next@14.1.3(@babel/core@7.24.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  next@14.1.3(@babel/core@7.24.1)(react-dom@18.2.0(react@18.3.1))(react@18.3.1):
     dependencies:
       '@next/env': 14.1.3
       '@swc/helpers': 0.5.2
@@ -5674,9 +5668,9 @@ snapshots:
       caniuse-lite: 1.0.30001599
       graceful-fs: 4.2.11
       postcss: 8.4.31
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      styled-jsx: 5.1.1(@babel/core@7.24.1)(react@18.2.0)
+      react: 18.3.1
+      react-dom: 18.2.0(react@18.3.1)
+      styled-jsx: 5.1.1(@babel/core@7.24.1)(react@18.3.1)
     optionalDependencies:
       '@next/swc-darwin-arm64': 14.1.3
       '@next/swc-darwin-x64': 14.1.3
@@ -5880,10 +5874,10 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-tailwind-styled-components@0.0.4(prettier@3.3.2)(tailwind-styled-components@2.2.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)):
+  prettier-plugin-tailwind-styled-components@0.0.4(prettier@3.3.2)(tailwind-styled-components@2.2.0(react-dom@18.2.0(react@18.3.1))(react@18.3.1)):
     dependencies:
       prettier: 3.3.2
-      tailwind-styled-components: 2.2.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      tailwind-styled-components: 2.2.0(react-dom@18.2.0(react@18.3.1))(react@18.3.1)
 
   prettier-plugin-tailwindcss@0.6.5(prettier@3.3.2):
     dependencies:
@@ -5924,15 +5918,15 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@18.2.0(react@18.2.0):
+  react-dom@18.2.0(react@18.3.1):
     dependencies:
       loose-envify: 1.4.0
-      react: 18.2.0
+      react: 18.3.1
       scheduler: 0.23.0
 
-  react-icons@5.0.1(react@18.2.0):
+  react-icons@5.0.1(react@18.3.1):
     dependencies:
-      react: 18.2.0
+      react: 18.3.1
 
   react-is@16.13.1: {}
 
@@ -5940,7 +5934,7 @@ snapshots:
 
   react-is@18.2.0: {}
 
-  react@18.2.0:
+  react@18.3.1:
     dependencies:
       loose-envify: 1.4.0
 
@@ -6169,10 +6163,10 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  styled-jsx@5.1.1(@babel/core@7.24.1)(react@18.2.0):
+  styled-jsx@5.1.1(@babel/core@7.24.1)(react@18.3.1):
     dependencies:
       client-only: 0.0.1
-      react: 18.2.0
+      react: 18.3.1
     optionalDependencies:
       '@babel/core': 7.24.1
 
@@ -6208,10 +6202,10 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.24.1
 
-  tailwind-styled-components@2.2.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  tailwind-styled-components@2.2.0(react-dom@18.2.0(react@18.3.1))(react@18.3.1):
     dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react: 18.3.1
+      react-dom: 18.2.0(react@18.3.1)
       tailwind-merge: 1.14.0
 
   tailwindcss-animate@1.0.7(tailwindcss@3.4.4(ts-node@10.9.2(@types/node@20.11.30)(typescript@5.5.2))):
