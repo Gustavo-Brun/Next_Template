@@ -88,14 +88,14 @@ importers:
         specifier: ^8
         version: 8.4.38
       prettier:
-        specifier: ^3.2.5
-        version: 3.2.5
+        specifier: ^3.3.2
+        version: 3.3.2
       prettier-plugin-tailwind-styled-components:
         specifier: ^0.0.4
-        version: 0.0.4(prettier@3.2.5)(tailwind-styled-components@2.2.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
+        version: 0.0.4(prettier@3.3.2)(tailwind-styled-components@2.2.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
       prettier-plugin-tailwindcss:
         specifier: ^0.5.12
-        version: 0.5.12(prettier@3.2.5)
+        version: 0.5.12(prettier@3.3.2)
       tailwind-styled-components:
         specifier: ^2.2.0
         version: 2.2.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -2462,8 +2462,8 @@ packages:
       prettier-plugin-twig-melody:
         optional: true
 
-  prettier@3.2.5:
-    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+  prettier@3.3.2:
+    resolution: {integrity: sha512-rAVeHYMcv8ATV5d508CFdn+8/pHPpXeIid1DdrPwXnaAdH7cqjVbpJaT5eq4yRAFU/lsbwYwSF/n5iNrdJHPQA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -5880,16 +5880,16 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-tailwind-styled-components@0.0.4(prettier@3.2.5)(tailwind-styled-components@2.2.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)):
+  prettier-plugin-tailwind-styled-components@0.0.4(prettier@3.3.2)(tailwind-styled-components@2.2.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)):
     dependencies:
-      prettier: 3.2.5
+      prettier: 3.3.2
       tailwind-styled-components: 2.2.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
 
-  prettier-plugin-tailwindcss@0.5.12(prettier@3.2.5):
+  prettier-plugin-tailwindcss@0.5.12(prettier@3.3.2):
     dependencies:
-      prettier: 3.2.5
+      prettier: 3.3.2
 
-  prettier@3.2.5: {}
+  prettier@3.3.2: {}
 
   pretty-format@27.5.1:
     dependencies:
