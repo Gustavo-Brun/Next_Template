@@ -94,8 +94,8 @@ importers:
         specifier: ^0.0.4
         version: 0.0.4(prettier@3.3.2)(tailwind-styled-components@2.2.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
       prettier-plugin-tailwindcss:
-        specifier: ^0.5.12
-        version: 0.5.12(prettier@3.3.2)
+        specifier: ^0.6.5
+        version: 0.6.5(prettier@3.3.2)
       tailwind-styled-components:
         specifier: ^2.2.0
         version: 2.2.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -2410,14 +2410,15 @@ packages:
       prettier-plugin-style-order:
         optional: true
 
-  prettier-plugin-tailwindcss@0.5.12:
-    resolution: {integrity: sha512-o74kiDBVE73oHW+pdkFSluHBL3cYEvru5YgEqNkBMFF7Cjv+w1vI565lTlfoJT4VLWDe0FMtZ7FkE/7a4pMXSQ==}
+  prettier-plugin-tailwindcss@0.6.5:
+    resolution: {integrity: sha512-axfeOArc/RiGHjOIy9HytehlC0ZLeMaqY09mm8YCkMzznKiDkwFzOpBvtuhuv3xG5qB73+Mj7OCe2j/L1ryfuQ==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
       '@prettier/plugin-pug': '*'
       '@shopify/prettier-plugin-liquid': '*'
       '@trivago/prettier-plugin-sort-imports': '*'
+      '@zackad/prettier-plugin-twig-melody': '*'
       prettier: ^3.0
       prettier-plugin-astro: '*'
       prettier-plugin-css-order: '*'
@@ -2429,7 +2430,6 @@ packages:
       prettier-plugin-sort-imports: '*'
       prettier-plugin-style-order: '*'
       prettier-plugin-svelte: '*'
-      prettier-plugin-twig-melody: '*'
     peerDependenciesMeta:
       '@ianvs/prettier-plugin-sort-imports':
         optional: true
@@ -2438,6 +2438,8 @@ packages:
       '@shopify/prettier-plugin-liquid':
         optional: true
       '@trivago/prettier-plugin-sort-imports':
+        optional: true
+      '@zackad/prettier-plugin-twig-melody':
         optional: true
       prettier-plugin-astro:
         optional: true
@@ -2458,8 +2460,6 @@ packages:
       prettier-plugin-style-order:
         optional: true
       prettier-plugin-svelte:
-        optional: true
-      prettier-plugin-twig-melody:
         optional: true
 
   prettier@3.3.2:
@@ -5885,7 +5885,7 @@ snapshots:
       prettier: 3.3.2
       tailwind-styled-components: 2.2.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
 
-  prettier-plugin-tailwindcss@0.5.12(prettier@3.3.2):
+  prettier-plugin-tailwindcss@0.6.5(prettier@3.3.2):
     dependencies:
       prettier: 3.3.2
 
