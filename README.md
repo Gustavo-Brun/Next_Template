@@ -51,6 +51,13 @@
   `<Icon_NAME />`.  
   Visit https://react-icons.github.io/react-icons/ to get access to the available icons.
 
+### File Conventions
+
+- **Error Handling** — error files that defines an error UI boundary for a route segment, allowing you to gracefully handle unexpected runtime errors. There are two types of error files available in the repository:  
+  `error.tsx` > Single page error handling file.  
+  `global-error.tsx` > Layout level error handling file.  
+  Check out https://nextjs.org/docs/app/api-reference/file-conventions/error for more details.
+
 ### Settings Customization
 
 - **Visual Studio Code recommended extensions** — You can see the recommended extensions by going to .vscode/extensions.json.
