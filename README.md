@@ -60,6 +60,7 @@
 
 ### Settings Customization
 
+- **Dependabot** — You can view, edit or delete dependabot from your project by going to .github/dependabot.yml.
 - **Visual Studio Code recommended extensions** — You can see the recommended extensions by going to .vscode/extensions.json.
 - **Tailwind** — You can choose between _Tailwind CSS_ and _Tailwind Styled Components_ by going to .prettierrc and modifying the Schema with the available plugins: `prettier-plugin-tailwindcss` or `prettier-plugin-tailwind-styled-components`
 
