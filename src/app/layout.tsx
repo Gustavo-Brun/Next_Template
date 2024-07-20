@@ -1,7 +1,10 @@
 import React from "react";
+
 import type { Metadata } from "next";
-import "./globals.css";
+
 import { ThemeProvider } from "@/providers/theme-provider";
+
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Next.js Template",
