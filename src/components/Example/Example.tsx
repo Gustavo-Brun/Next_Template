@@ -17,6 +17,7 @@ const Example = (): React.JSX.Element => {
         <Button
           variant="secondary"
           size="iconXL"
+          aria-label="Change Theme Button"
         >
           <FaSun
             onClick={() => {

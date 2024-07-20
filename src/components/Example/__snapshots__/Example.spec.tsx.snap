@@ -12,6 +12,7 @@ exports[`Example should render Example component with title 1`] = `
           class="absolute right-10 top-16"
         >
           <button
+            aria-label="Change Theme Button"
             class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-16 w-16"
           >
             <svg
@@ -71,6 +72,7 @@ exports[`Example should render Example component with title 1`] = `
         class="absolute right-10 top-16"
       >
         <button
+          aria-label="Change Theme Button"
           class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-16 w-16"
         >
           <svg
