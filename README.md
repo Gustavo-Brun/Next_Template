@@ -56,7 +56,7 @@
 - **Error Handling** — error files that defines an error UI boundary for a route segment, allowing you to gracefully handle unexpected runtime errors. There are two types of error files available in the repository:  
   `error.tsx` > Single page error handling file.  
   `global-error.tsx` > Layout level error handling file.  
-  Check out https://nextjs.org/docs/app/api-reference/file-conventions/error for more details.
+  Check out https://nextjs.org/docs/app/building-your-application/routing/error-handling for more details.
 
 ### Settings Customization
 
