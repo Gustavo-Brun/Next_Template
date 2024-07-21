@@ -58,6 +58,11 @@
   `global-error.tsx` > Layout level error handling file.  
   Check out https://nextjs.org/docs/app/building-your-application/routing/error-handling for more details.
 
+- **Loading Handling** — loading files helps you to create meaningful Loading UI with React Suspense. With this convention, you can show an instant loading state from the server while the content of a route segment loads. The new content is automatically swapped in once rendering is complete. There are two types of error files available in the repository:  
+  `RouteLoading.tsx` > Route level loading handling file.  
+  `GlobalLoading.tsx` > Layout level loading handling file.  
+  Check out https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming for more details.
+
 ### Settings Customization
 
 - **Dependabot** — You can view, edit or delete dependabot from your project by going to .github/dependabot.yml.
