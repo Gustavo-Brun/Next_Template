@@ -2,6 +2,8 @@
 
 import React, { useEffect } from "react";
 
+import { GlobalErrorComponent } from "@/components/_FIleConventions/Error";
+
 export default function GlobalError({
   error,
   reset
@@ -15,21 +17,10 @@ export default function GlobalError({
   return (
     <html>
       <body>
-        <h2>Something went wrong!</h2>
-        <button
-          onClick={() => {
-            reset();
-          }}
-        >
-          Try again
-        </button>
-        <button
-          onClick={() => {
-            window.location.reload();
-          }}
-        >
-          Reload the Page
-        </button>
+        <GlobalErrorComponent
+          error={error}
+          reset={reset}
+        />
       </body>
     </html>
   );

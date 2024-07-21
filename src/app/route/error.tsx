@@ -2,6 +2,8 @@
 
 import React, { useEffect } from "react";
 
+import { RouteErrorComponent } from "@/components/_FIleConventions/Error";
+
 export default function Error({
   error,
   reset
@@ -13,22 +15,9 @@ export default function Error({
     console.error(error);
   }, [error]);
   return (
-    <div>
-      <h2>Something went wrong!</h2>
-      <button
-        onClick={() => {
-          reset();
-        }}
-      >
-        Try again
-      </button>
-      <button
-        onClick={() => {
-          window.location.reload();
-        }}
-      >
-        Reload the Page
-      </button>
-    </div>
+    <RouteErrorComponent
+      error={error}
+      reset={reset}
+    />
   );
 }
