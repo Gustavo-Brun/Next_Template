@@ -1,5 +1,10 @@
 import tw from "tailwind-styled-components";
 
+export const Credits = tw.span`
+  absolute
+  bottom-0
+`;
+
 export const Container = tw.section`
   flex
   h-screen

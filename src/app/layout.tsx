@@ -1,8 +1,11 @@
-import React from "react";
+import React, { Suspense } from "react";
 
 import type { Metadata } from "next";
 
 import { ThemeProvider } from "@/providers/theme-provider";
+
+import { Credits } from "@/components/Example";
+import { CreditsFallbackComponent } from "@/components/_FIleConventions/Loading";
 
 import "./globals.css";
 
@@ -26,6 +29,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <Suspense fallback={<CreditsFallbackComponent />}>
+            <Credits />
+          </Suspense>
         </ThemeProvider>
       </body>
     </html>
