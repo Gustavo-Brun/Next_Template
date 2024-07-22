@@ -80,6 +80,9 @@ To view the project open `http://localhost:3000`
   `CreditsFallback.tsx` > Fallback example file.  
   Check out https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming for more details.
 
+- **Metadata Files** — File-based metadata can be defined by adding special metadata files to route segments. Once a file is defined, Next.js will automatically serve the file (with hashes in production for caching) and update the relevant head elements with the correct metadata, such as the asset's URL, file type, and image size.
+  `favicon` > Use an image file to define your app icon by changing the default favicon in the /app directory.
+
 ### Settings Customization
 
 - **Dependabot** — You can view, edit or delete dependabot from your project by going to .github/dependabot.yml.
