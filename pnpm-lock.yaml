@@ -36,8 +36,8 @@ importers:
         specifier: ^5.0.1
         version: 5.2.1(react@18.3.1)
       tailwind-merge:
-        specifier: ^2.4.0
-        version: 2.4.0
+        specifier: ^2.5.3
+        version: 2.5.3
       tailwindcss-animate:
         specifier: ^1.0.7
         version: 1.0.7(tailwindcss@3.4.7(ts-node@10.9.2(@types/node@20.14.12)(typescript@5.5.4)))
@@ -1405,6 +1405,7 @@ packages:
   eslint@8.57.0:
     resolution: {integrity: sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@9.6.1:
@@ -2807,8 +2808,8 @@ packages:
   tailwind-merge@1.14.0:
     resolution: {integrity: sha512-3mFKyCo/MBcgyOTlrY8T7odzZFx+w+qKSMAmdFzRvqBfLlSigU6TZnlFHK0lkMwj9Bj8OYU+9yW9lmGuS0QEnQ==}
 
-  tailwind-merge@2.4.0:
-    resolution: {integrity: sha512-49AwoOQNKdqKPd9CViyH5wJoSKsCDjUlzL8DxuGp3P1FsGY36NJDAa18jLZcaHAUUuTj+JB8IAo8zWgBNvBF7A==}
+  tailwind-merge@2.5.3:
+    resolution: {integrity: sha512-d9ZolCAIzom1nf/5p4LdD5zvjmgSxY0BGgdSvmXIoMYAiPdAW/dSpP7joCDYFY7r/HkEa2qmPtkgsu0xjQeQtw==}
 
   tailwind-styled-components@2.2.0:
     resolution: {integrity: sha512-Ogemwk0p69aU8WE/ooJZHjqstdJgT5R6HGU6TFz2uSnveSEtvW+C6aWOjGCvCr5H/bREv0IbbQ4yODknRrLBRQ==}
@@ -6269,7 +6270,7 @@ snapshots:
 
   tailwind-merge@1.14.0: {}
 
-  tailwind-merge@2.4.0: {}
+  tailwind-merge@2.5.3: {}
 
   tailwind-styled-components@2.2.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
